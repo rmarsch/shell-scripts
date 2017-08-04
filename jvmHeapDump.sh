@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 JAVAUSER=$(ps -p $(pgrep java) -o %u | tail -n 1)
 PID=$(pgrep java)
